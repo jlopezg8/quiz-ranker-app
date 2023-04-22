@@ -18,7 +18,7 @@ export default function TestNavigator() {
           name="StartTest"
           component={StartTestScreen}
           options={({ navigation }) => ({
-            title: 'Sileo',
+            title: 'QuizRanker',
             headerRight: () => (
               <OverflowMenu navigation={navigation}>
                 <OverflowMenu.Item label="Cerrar sesión" onPress={logout} />

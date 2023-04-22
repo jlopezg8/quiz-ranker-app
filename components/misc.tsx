@@ -75,7 +75,7 @@ export interface LogoProps {
 }
 
 export function Logo({ style }: LogoProps) {
-  return <Headline style={[styles.logo, style]}>Sileo</Headline>;
+  return <Headline style={[styles.logo, style]}>QuizRanker</Headline>;
 }
 
 export type ScreenProgressBarProps = React.ComponentProps<typeof ProgressBar> & {
